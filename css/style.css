@@ -1,0 +1,16 @@
+body {
+    font-family: "Cambria";
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    vertical-align: center;
+}
