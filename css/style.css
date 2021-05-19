@@ -5,12 +5,14 @@ body {
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 p {
     text-align: justify;
+    line-height: 20px;
 }
 
-img {
-    vertical-align: center;
+a {
+    text-decoration: none;
 }
