@@ -20,3 +20,11 @@ a {
 .intro {
     font-size: 24px;
 }
+
+#earth-title {
+    color: rgb(35, 187, 35);
+}
+
+#mars-title {
+    color: lightsalmon;
+}
