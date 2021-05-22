@@ -28,6 +28,13 @@ header {
     background-color: antiquewhite; /* For all the headers, in all the web pages */
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* Selectors for the homepage */
 .footer-font {
     font-size: 12px;
