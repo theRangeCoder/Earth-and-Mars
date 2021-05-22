@@ -23,9 +23,21 @@ a {
 }
 
 #earth-title {
-    color: rgb(35, 187, 35);
+    color: #2a8442;
 }
 
 #mars-title {
     color: lightsalmon;
+}
+
+.footer-font {
+    font-size: 12px;
+}
+
+header {
+    background-color: antiquewhite; /* For all the headers, in all the web pages */
+}
+
+.earth-header {
+    background-color: rgba(1, 1, 7, 0.651);
 }
