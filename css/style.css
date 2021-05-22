@@ -26,12 +26,16 @@ a {
 
 header {
     background-color: antiquewhite; /* For all the headers, in all the web pages */
+    padding: 5px; /* Padding =  More background around the element; Margin = More empty space around the element */
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .center {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; /* If we have margin: a b c then the left and right margins take up the value 'b'. The left and right margin
+    values are the same and the top and bottom margin values are the same, if one or more margin values are missing in the input */
     width: 50%;
 }
 
