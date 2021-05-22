@@ -1,4 +1,6 @@
 /* This CSS stylesheet contains the styling code for the Earth-and-Mars website */
+
+/* General */
 body {
     font-family: "Cambria";
     font-style: italic;
@@ -22,22 +24,25 @@ a {
     font-size: 24px;
 }
 
-#earth-title {
-    color: #2a8442;
-}
-
-#mars-title {
-    color: lightsalmon;
-}
-
-.footer-font {
-    font-size: 12px;
-}
-
 header {
     background-color: antiquewhite; /* For all the headers, in all the web pages */
 }
 
+/* Selectors for the homepage */
+.footer-font {
+    font-size: 12px;
+}
+
+/* Selectors for the Earth page */
+#earth-title {
+    color: #2a8442;
+}
+
 .earth-header {
     background-color: rgba(1, 1, 7, 0.651);
+}
+
+/* Selectors for the Mars page */
+#mars-title {
+    color: lightsalmon;
 }
