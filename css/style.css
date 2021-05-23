@@ -29,11 +29,19 @@ header {
     padding: 5px; /* Padding =  More background around the element; Margin = More empty space around the element */
     margin-left: 450px;
     margin-right: 450px;
+    margin-bottom: 30px;
 
     /* Adding a border */
     border-color: black;
     border-width: 3px;
     border-style: solid;
+}
+
+main {
+    /* In general: border: w,c,s  */
+    border: 3px black solid; /* Default color of border (if no color is mentioned) = color of the text */
+    padding: 20px;
+    /* The top, right, bottom and left borders can be specified sperarately, as well. */
 }
 
 .center {
@@ -42,6 +50,10 @@ header {
     margin-right: auto; /* If we have margin: a b c then the left and right margins take up the value 'b'. The left and right margin
     values are the same and the top and bottom margin values are the same, if one or more margin values are missing in the input */
     width: 50%;
+}
+
+.img-border {
+    border: 3px white solid;
 }
 
 /* Selectors for the homepage */
