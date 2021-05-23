@@ -29,6 +29,11 @@ header {
     padding: 5px; /* Padding =  More background around the element; Margin = More empty space around the element */
     margin-left: 450px;
     margin-right: 450px;
+
+    /* Adding a border */
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .center {
@@ -51,6 +56,9 @@ header {
 
 .earth-header {
     background-color: rgba(1, 1, 7, 0.651);
+    border-color: #2a8442;
+    border-width: 3px;
+    border-style: solid; /* possible styles: dotted, dashed, double, groove (fake 3d), ridge, outset, etc */
 }
 
 /* Selectors for the Mars page */
